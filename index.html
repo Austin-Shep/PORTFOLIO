@@ -6,7 +6,6 @@
     <title>Web Design by Austin S.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="./css/normalize.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/animate.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
 </head>
@@ -16,7 +15,10 @@
         <div class="cube-wrapper-name">
             <div class="cube-name">
                 <div class="cube-top-name">
-                    
+                    <ul class="linkList">
+                        <li><a href="./images/Resume.Austin.Shepherd.pdf" download>Resume(PDF Download)</a></li>
+                        <li><a href="#" id='bio' >Bio</a></li>
+                    </ul>
                 </div>
                 <div class="cube-front">
                         <h1 class="title">A.M.S</h1>
@@ -41,9 +43,9 @@
             <div class="cube-portfolio">
                 <div class="cube-top-portfolio">
                         <ul class="linkList">
-                                <li><a href="#">Doorstep</a></li>
-                                <li><a href="#">Arena Game</a></li>
-                                <li><a href="#">Project3</a></li>
+                                <li><a href="#" id="ds">Doorstep</a></li>
+                                <li><a href="#" id="ag">Arena Game</a></li>
+                                <li><a href="#" id="tg">Trivia</a></li>
                             </ul>
                 </div>
                 <div class="cube-front">
@@ -52,11 +54,25 @@
             </div>
         </div>  
     </div>
-    <div id="postPoint">
-        #
-    </div>
+    <div class="postWrap">
+        <div class="postBox">
+            <div class="postPoint">
+            
+            </div>
+            <div class="postTop">
+                <span id="post">
 
+                </span>
+            </div>
+        </div>
+    </div>    
 
-<script src="./js/main.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+    <script src="./js/main.js">
+        </script>
 </body>
 </html>
