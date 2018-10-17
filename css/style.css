@@ -1,0 +1,122 @@
+body{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+    top:10%;
+}
+
+/*============================== NAME =====================================  */
+.cube-wrapper-name{
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 15%;
+    position: absolute;
+    box-shadow: -10px 10px 51px -7px rgba(0,0,0,0.75);
+    
+}
+
+.cube-name, .cube-name div{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease-in-out;
+}
+.cube-top-name{
+    background-color: black;
+    transform: translate(-100%,0) rotateY(90deg);
+    transform-origin: right;
+}
+
+.cube-wrapper-name:hover .cube-name{
+    transform: translate(50%,0) rotateY(-90deg);
+}
+/*==============================  CONTACT=====================================  */
+.cube-wrapper-contact{
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 42%;
+    position: absolute;
+    box-shadow: 0px 15px 51px -7px rgba(0,0,0,0.75);
+    
+}
+
+.cube-contact, .cube-contact div{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+.cube-top-contact{
+    background-color: black;
+    transform: translate(0, -100%) rotateX(90deg);
+    transform-origin: bottom;
+}
+.cube-wrapper-contact:hover .cube-contact{
+    transform: translate(0,50%) rotateX(-90deg);
+}
+ul.linkList, a{
+    color:white;
+    list-style: none;
+    line-height: 3rem;
+    margin-left: -1rem;
+}
+.cTitle{
+    left:25%;
+    position: absolute;
+}
+/*==============================  PORTFOLIO ===============================*/
+.cube-wrapper-portfolio{
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 69%;
+    position: absolute;
+    box-shadow: 10px 10px 51px -7px rgba(0,0,0,0.75);
+    
+}
+.cube-portfolio, .cube-portfolio div{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease-in-out;
+}
+.cube-top-portfolio{
+    background-color: black;
+    transform: translate(100%, 0) rotateY(-90deg);
+    transform-origin: left;
+}
+.cube-wrapper-portfolio:hover .cube-portfolio{
+    transform: translate(-50%,0) rotateY(90deg);
+}
+.pTitle{
+    padding-left: 7.9rem;
+}
+
+/* =================================== Page Style ========================================= */
+
+#postPoint{
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+
+
+
+/* ================================ applied animations ===================================== */
+
