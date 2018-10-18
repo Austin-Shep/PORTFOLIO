@@ -117,10 +117,11 @@ ul.linkList, a{
     left:50%;
     top:50%;
     transform: translateX(-50%);
-    height: 30%;
+    height: 35%;
     width: 75%;
     box-shadow: 0px 15px 51px -7px rgba(0,0,0,0.75);
 }
+
 .postBox, .postBox div{
     width: 100%;
     height: 100%;
@@ -130,6 +131,7 @@ ul.linkList, a{
     transform-style: preserve-3d;
     transition: transform 0.4s ease-in-out;
 }
+
 .postTop{
     color: white;
     background-color: black;
@@ -138,20 +140,26 @@ ul.linkList, a{
     box-shadow: 0px 15px 51px -7px rgba(0,0,0,0.75);
 }
 
-/* .postWrap:active .postBox{
-
-} */
-
 .active{
     transform: translate(0,50%) rotateX(-90deg);
 }
+
 #post{
     color: white;
 }
+
 .postTextWrap{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
+    line-height: .9rem;
+    padding: 1rem;
+}
+.postBody{
+    text-indent: 2rem;
+    padding:1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
 }
 

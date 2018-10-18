@@ -9,9 +9,7 @@ $("#ds").on('click', function(){
     a.append(
         $('<h2/>',  {'class':'postHead'}).text('DOORSTEP')
     ).append(
-        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE:' ).append(
-            $('<h4/>').text('Javascript Developer')
-            )
+        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE: Javascript Developer')
     ).append(
         $('<p/>', {'class':'postBody'}).text('PROJECT GOAL: My team and I set out to create a modern, mobile real-estate web app using Bridge Interactive\'s MLS rest api and Google\'s Map sevice')
     ).append(
@@ -43,9 +41,7 @@ $("#ag").on('click', function(){
     a.append(
         $('<h2/>',  {'class':'postHead'}).text('BLOODBOWL-ARENA')
     ).append(
-        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE:' ).append(
-            $('<h4/>').text('Developer')
-            )
+        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE: Developer')
     ).append(
         $('<p/>', {'class':'postBody'}).text('PROJECT GOAL: The goal with this project was to teach myself some moderate DOM and data manipulation though a simple game that utilized dice rolls and character blocks')
     ).append(
@@ -74,9 +70,7 @@ $("#tg").on('click', function(){
     a.append(
         $('<h2/>',  {'class':'postHead'}).text('TRIVIA GAME')
     ).append(
-        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE:' ).append(
-            $('<h4/>').text('Developer')
-            )
+        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE: Developer')
     ).append(
         $('<p/>', {'class':'postBody'}).text('PROJECT GOAL: The goal with this project was to introduce myself to the concept of timers and how they interact with functions. I also sought to become more comfortable with DOM manipultaion in vanilla Javascript')
     ).append(
@@ -101,13 +95,11 @@ $("#bio").on('click', function(){
     
     let a = $('<div/>',  {'class':'postTextWrap'})
     a.append(
-        $('<h2/>',  {'class':'postHead'}).text('TRIVIA GAME')
+        $('<h2/>',  {'class':'postHead'}).text('BIO')
     ).append(
-        $('<h4/>', {'class':'postSubHead'}).text('PROJECT ROLE:' ).append(
-            $('<h4/>').text('Developer')
-            )
+        $('<h4/>', {'class':'postSubHead'}).text('TITLE: Fullstack Web Developer')
     ).append(
-        $('<p/>', {'class':'postBody'}).text('PROJECT GOAL: The goal with this project was to introduce myself to the concept of timers and how they interact with functions. I also sought to become more comfortable with DOM manipultaion in vanilla Javascript')
+        $('<p/>', {'class':'postBody'}).text('My main goal for my clients is to provide a seemless interaction and quality web apps for their buisness needs. A website is one of the greatest assets a company can have in the modern world. Wether you opperate a Fortune 500 enterprise in San Jose or a startup based out of your garage I\'m here to provide that most valuable of assets.')
     ).append(
         $('<a/>',{'class':'postLink'}).attr('href', 'https://www.linkedin.com/in/austin-shepherd--/').attr('target','_blank').text('<LinkdIn>')
     ).append(
