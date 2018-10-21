@@ -162,4 +162,6 @@ ul.linkList, a{
     font-size: 1.2rem;
     line-height: 1.2rem;
 }
-
+.postList{
+    font-size: .9rem;
+}
